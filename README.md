@@ -1,8 +1,7 @@
 # OttoDIY WiFi
-
 Addon for the OttoDIY opensource Project.  
 http://ottodiy.com 
--------------------------------------------------------------------------------------------------------------------------
+
 ## Motivation for the project
 
 When developing with the OttoDIY Robot a few things can get in the way and sometimes make it difficult or even lead to failure. 
