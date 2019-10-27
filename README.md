@@ -1,5 +1,5 @@
 # OttoDIY WiFi
-
+-------------------------------------------------------------------------------------------------------------------------
 ## Motivation for the project
 
 When developing with the OttoDIY Robot a few things can get in the way and sometimes make it difficult or even lead to failure. 
@@ -13,7 +13,7 @@ The second obstacle to OttoDIY development is the need to code, compile, and up
 
 Another inhibiting (and the most annoying) tether is the USB cable. What else can I say about it? Unless it's used to recharge the battery ... we going to ditch it and go fully wireless. (Not just a remote control like the Android App ...)
 
-
+-------------------------------------------------------------------------------------------------------------------------
 Remix of the OttoDIY opensource Project.  
 http://ottodiy.com 
 
