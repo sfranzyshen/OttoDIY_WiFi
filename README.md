@@ -27,8 +27,11 @@ The idea is to replace the Bluetooth module with a WiFi module and not just any 
 - Add MP3 audio playback of files stored on the ESP's flash ...
 - and more ...
 
-## OK, Where is the code?
+## Out-Of-The-Box
 
+Imagine our ESP module is (pre)programmed with our project and has a default copy of the OttoDIY firmware and a built in web application *(IDE)* stored on it's internal flash *(SPIFFS)* ... In theory we would be able to add a "blank" Nano to our build, and from the user interface, upload the default firmware to the Nano ... bootstrapping our OttoDIY Robot integrated development environment ... We can connect *(Wireless)* from ANY device that has a web browser and WiFi connectivity ... without ever needing internet access ... nor installing any software on the connecting device ... We would be able to immediately *(using various web interfaces)* "Out-Of-The-Box" control and interact with our OttoDIY Robot.
+
+## OK, Where is the code?
 
 # References
 - https://github.com/OttoDIY
