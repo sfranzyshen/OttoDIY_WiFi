@@ -1,4 +1,7 @@
 # OttoDIY WiFi
+
+Addon for the OttoDIY opensource Project.  
+http://ottodiy.com 
 -------------------------------------------------------------------------------------------------------------------------
 ## Motivation for the project
 
@@ -14,9 +17,6 @@ The second obstacle to OttoDIY development is the need to code, compile, and up
 Another inhibiting (and the most annoying) tether is the USB cable. What else can I say about it? Unless it's used to recharge the battery ... we going to ditch it and go fully wireless. (Not just a remote control like the Android App ...)
 
 -------------------------------------------------------------------------------------------------------------------------
-Remix of the OttoDIY opensource Project.  
-http://ottodiy.com 
-
 
 # References
 - https://github.com/OttoDIY
