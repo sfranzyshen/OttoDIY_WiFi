@@ -1,4 +1,4 @@
-# OttoDIY WiFi
+# OttoDIY_WiFi
 *Addon for the OttoDIY opensource Project. http://ottodiy.com*
 
 ## Motivation for the project
@@ -29,13 +29,14 @@ The idea is to replace the Bluetooth module with a WiFi module and not just any 
 Imagine our ESP module is (pre)programmed with our project and has a default copy of the OttoDIY firmware and a built in web application *(IDE)* stored on it's internal flash *(SPIFFS)* ... In theory we would be able to add a "blank" Nano to our build, and from the web based user interface, upload the default firmware to the Nano ... bootstrapping our OttoDIY Robot with a built in integrated development environment ... We could connect *(Wireless)* from **ANY** device that has a web browser and WiFi connectivity ... without needing to connect to the internet ... nor installing any software on the connecting device being used ... We would be able to immediately *(using the various web interfaces)* control and interact with our OttoDIY Robot **"Out-Of-The-Box"**.
 
 ## Questions?
->If the object is to teach the Arduino *(work-flow)* IDE stack, aren't you eliminating the the Arduino environment completely with the Blockly/Interpreter Web App approach?
+>**If the object is to teach the Arduino *(work-flow)* IDE ... aren't you eliminating the the Arduino environment completely with the Blockly/Interpreter Web App approach?**
 
-Yes and No. Yes it's true there isn't a functional Interpreter for the Arduino C++ environment, but the Blockly interface can generate real Arduino code *(That can be used with the normal Arduino IDE)* as well as the LUA code that is used for the builtin script Interpreter. Also, we may be able to add the ability to use the Arduino IDE to upload sketches wireless(ly) providing students a pathway from the Blocky *(bulitin)* environment to the regular Arduino IDE environment. 
+**Yes and No.** Yes it's true that there isn't a functional interpreter for the Arduino C++ environment, but the Blockly interface can generate real Arduino code *(That can be used with the normal Arduino IDE)* as well as the LUA code that is used for the internal script interpreter. We may be able to add the ability to use the Arduino IDE to upload sketches **wireless(ly)** providing students a pathway from the Blockly *(bulitin)* environment ... to the regular Arduino IDE environment. 
 
->Why add a second microcontroller ... why not do everything from the ESP and drop the Nano?
+>**Why add a second microcontroller ... why not do everything from the ESP and drop the Nano?**
 
-Good question! We have also given this great consideration ... and we are even starting a second project to explore just this idea ... however ...
+**This is a great question!** We have also given this some great consideration ... and we have started another project to explore this very idea ... however there are several considerations that have to be addressed. The **first** thing is the hardware. One of the advantages to the OttoDIY Robot is the low cost, and the using of relatively available standard components ... But we have not been unable to identify a suitable replacement for the Nano expansion board ... and therefore it would require a custom board to be made. **Second** as mentioned in the question above ... the script interpreter we are using for **this** project uses the LUA language ... that isn't usually used as a teaching language  ... We want to maintain the **"Interpreted Environment"** so that we don't have to perform code, compile, upload cycles. A more modern *(applicable)* programming language would be python ... but all of the python implementations available to the ESP platforms are **"bare-metal"** based ... requiring a full port of the OttoDIY Robot API to a python platform. 
+
 
 ## OK, Where is the code?
 
