@@ -35,7 +35,13 @@ Imagine our ESP module is (pre)programmed with our project and has a default cop
 
 >**Why add a second microcontroller ... why not do everything from the ESP and drop the Nano?**
 
-**This is a great question!** We have also given this some great consideration ... and we have started another project to explore this very idea ... however there are several considerations that have to be addressed. The **first** thing is the hardware. One of the advantages to the OttoDIY Robot is the low cost, and the using of relatively available standard components ... But we have not been unable to identify a suitable replacement for the Nano expansion board ... and therefore it would require a custom board to be made. **Second** as mentioned in the question above ... the script interpreter we are using for **this** project uses the LUA language ... that isn't usually used as a teaching language  ... We want to maintain the **"Interpreted Environment"** so that we don't have to perform code, compile, upload cycles. A more modern *(applicable)* programming language would be python ... but all of the python implementations available to the ESP platforms are **"bare-metal"** based ... requiring a full port of the OttoDIY Robot API to a python platform. 
+**This is a great question!** We have also given this some great thought ... however there are several considerations that have to be addressed ...
+
+The **first** thing is the hardware. One of the advantages to the OttoDIY Robot is the low cost, and the using of relatively available standard components ... But we have not been able to identify a suitable replacement for the Nano expansion board ... and therefore it would be required to make a custom board ... where to start ... but more importantly ... where to stop ...
+
+**Second** We want to maintain the **"Interpreted Environment"** so that we don't have to perform code, compile, upload cycles. The interpreter can handle both methods. Either controlling the local hardware directly *(with just the ESP)* or using the serial bridge to control the Nano ... So there is a direct migration once the hardware board is completed ... and is within the scope of this project ...
+
+**Alternatively** as mentioned in the question above ... the script interpreter we use for **this** project is the LUA language ... that isn't usually used as a teaching language  ...  A more modern *(applicable)* programming language would be python ... but all of the python implementations available for the ESP platforms are **"bare-metal"** based and would  require either a port of python to the Arduino environment ... or a full port of the OttoDIY Robot API to a python platform. We have started a separate project to explore this very idea ...  
 
 
 ## OK, Where is the code?
