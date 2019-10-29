@@ -47,12 +47,19 @@ The **first** thing is the hardware. One of the advantages to the OttoDIY Robot 
 ## OK, Where is the code?
 
 https://github.com/sfranzyshen/OttoDIY_Libraries/blob/master/examples/OttoPLUS_V9/OttoPLUS_V9.ino
+
 https://github.com/sfranzyshen/ESP8266-Arduino-Lua
+
 https://github.com/vlast3k/ESP_STK500
+
 https://github.com/gaurabdg/ESP8266_Arduino_serial-uploader/tree/master/src/firmware/ESPcode
+
 https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt
+
 https://github.com/google/blockly
+
 https://github.com/earlephilhower/ESP8266Audio
+
 
 
 # References
