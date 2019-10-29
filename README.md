@@ -39,7 +39,7 @@ Imagine our ESP module is (pre)programmed with our project and has a default cop
 
 The **first** thing is the hardware. One of the advantages to the OttoDIY Robot is the low cost, and the using of relatively available standard components ... But we have not been able to identify a suitable replacement for the Nano expansion board ... and therefore it would be required to make a custom board ... where to start ... but more importantly ... where to stop ...
 
-**Second** we want to maintain the **"Interpreted Environment"** so that we don't have to perform code, compile, upload cycles. The interpreter can handle both methods. Either controlling the local hardware directly *(with just the ESP)* or using the serial bridge to control the Nano ... So there is a direct migration once the hardware board is completed ... and this is within the scope of this project ...
+**Second** we want to maintain the **"Interpreted Environment"** so that we don't have to perform code, compile, upload cycles. The interpreter can handle both methods. Either controlling the local hardware directly *(with just the ESP)* or using the serial bridge to control the Nano ... So there is a direct migration once the hardware board is completed ... and this is within the scope of this project ... and we expect to provide both firmwares *(One for two micro-controllers and one for everything on an ESP)*
 
 **Alternatively** as mentioned in the question above ... the script interpreter we use for **this** project is the LUA language ... that isn't usually used as a teaching language  ...  A more modern *(applicable)* programming language would be python ... but of the python implementations available for the ESP platforms all are **"bare-metal"** based and would  require either a port of python to the Arduino environment ... or a full port of the OttoDIY Robot API to a python based platform. We have started a separate project to explore this very idea ... https://github.com/sfranzyshen/OttoDIY_Python
 
@@ -52,7 +52,7 @@ https://github.com/vlast3k/ESP_STK500
 https://github.com/gaurabdg/ESP8266_Arduino_serial-uploader/tree/master/src/firmware/ESPcode
 https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt
 https://github.com/google/blockly
-
+https://github.com/earlephilhower/ESP8266Audio
 
 
 # References
