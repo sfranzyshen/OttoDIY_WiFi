@@ -56,6 +56,8 @@ https://github.com/gaurabdg/ESP8266_Arduino_serial-uploader/tree/master/src/firm
 
 https://github.com/BlocklyDuino/BlocklyDuino
 
+https://github.com/BlocklyDuino/BlocklyDuinoReboot
+
 https://github.com/carlosperate/ardublockly
 
 https://github.com/ingegno/Blockly4Arduino
@@ -85,6 +87,8 @@ https://github.com/RobertoDebarba/educational-visual-programming-language-for-es
 https://github.com/MediaTek-Labs/BlocklyDuino-for-LinkIt
 
 https://github.com/technologiescollege/Blockly-at-rduino
+
+https://github.com/whitecatboard/whitecat-ide
 
 https://github.com/google/blockly
 
