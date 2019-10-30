@@ -46,7 +46,7 @@ The **first** thing is the hardware. One of the advantages to the OttoDIY Robot 
 
 ## OK, Where is the code?
 
-We are currently still organizing and planning ... https://github.com/sfranzyshen/OttoDIY_WiFi
+We are currently still organizing and planning ... [https://github.com/sfranzyshen/OttoDIY_WiFi/tree/develop](https://github.com/sfranzyshen/OttoDIY_WiFi/tree/develop)
 
 # References
 - https://github.com/OttoDIY
