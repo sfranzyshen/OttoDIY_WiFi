@@ -1,5 +1,5 @@
 # OttoDIY_WiFi
-*Addon for the OttoDIY opensource Project. http://ottodiy.com*
+*Addon for the OttoDIY opensource Project. [http://ottodiy.com](http://ottodiy.com)*
 
 ## Motivation for the project
 
@@ -49,5 +49,5 @@ The **first** thing is the hardware. One of the advantages to the OttoDIY Robot 
 We are currently still organizing and planning ... [https://github.com/sfranzyshen/OttoDIY_WiFi/tree/develop](https://github.com/sfranzyshen/OttoDIY_WiFi/tree/develop)
 
 # References
-- https://github.com/OttoDIY
-- https://wikifactory.com/+OttoDIY
+- [https://github.com/OttoDIY](https://github.com/OttoDIY)
+- [https://wikifactory.com/+OttoDIY](https://wikifactory.com/+OttoDIY)
