@@ -1,7 +1,7 @@
 # OttoDIY_WiFi
 *Addon for the OttoDIY opensource Project. http://ottodiy.com*
 
-#Project
+# Project
 https://github.com/sfranzyshen/OttoDIY_WiFi
 
 ## OK, Where is the code?
