@@ -6,7 +6,23 @@ https://github.com/sfranzyshen/OttoDIY_WiFi
 
 ## OK, Where is the code?
 
-We are currently still organizing and planning ...
+We are currently still organizing and planning ... the following needs to be done
+
+#### LUA Interpreter
+- Arduino (minimal) API to the ESP LUA Interpreter 
+- OttoDIY API to the ESP LUA Interpreter 
+
+#### Blockly
+- Arduino (minimal) API to Blockly Blocks
+- OttoDIY API to Blockly Blocks
+
+- Arduino (minimal) API to Blockly Arduino Generator- OttoDIY API to Blockly Arduino Generator
+- Arduino (minimal) API to Blockly LUA Generator- OttoDIY API to the Blockly LUA Generator
+
+#### Firmware
+- Blockly web interface for OttoDIY (REPL, Storage)
+- (minimal) Blockly image to be embedded on the ESP 
+- Firmware Web+OttoDIY+LUA+Blockly
 
 # Resources
 https://github.com/sfranzyshen/OttoDIY_Libraries/blob/master/examples/OttoPLUS_V9/OttoPLUS_V9.ino
